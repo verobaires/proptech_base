@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useAuth } from "../../auth/useAuth.js";
+import { useAuth } from "../../auth/useAuth";
 
 export const useInitApp = () => {
 	const [loading, setLoading] = useState(true);
